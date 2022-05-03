@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #e0e8ff;
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 20% -18rem;
+  font-size: 16px;
+  font-family: "Red Hat Display";
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 90vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+  background-color: white;
+  border-radius: 5%;
+  max-width: 327px;
+  padding-bottom: 1rem;
+}
+
+.hero {
+  max-width: 100%;
+  border-radius: 5%;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-top: 0;
+}
+
+.content {
+  padding: 0 1.5rem 0 1.5rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #1f2f56;
+  margin-bottom: 0.75rem;
+}
+
+p.subtext {
+  font-size: 14px;
+  color: #7280a7;
+  margin-bottom: 1rem;
+}
+
+.price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 0.5rem;
+  width: 95%;
+  padding: 1rem 0;
+  background-color: #f5f7ff;
+  gap: 1rem;
+  font-size: 13px;
+  border-radius: 1rem;
+}
+
+.price img {
+  margin-left: 0.75rem;
+  max-width: 2.5rem;
+}
+
+.price .price-text {
+  margin-left: 0.25rem;
+  text-align: left;
+}
+
+.price .price-text h2 {
+  font-weight: 900;
+  font-size: 14px;
+  margin-bottom: 0.25rem;
+}
+
+.price .price-text p {
+  color: #7280a7;
+}
+
+.price a {
+  color: #3829e0;
+  font-size: 13px;
+  font-weight: 700;
+  margin-left: 1.75rem;
+  padding-right: 0;
+  transition: 0.3s ease;
+}
+
+.price a:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: #6b5ef7;
+}
+
+.btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.5rem;
+  gap: 1rem;
+}
+
+.btn-container .btn {
+  text-decoration: none;
+  outline: none;
+  border: 0;
+  border-radius: 0.75rem;
+  width: 95%;
+  padding: 0.75rem 0;
+}
+
+.btn-container .payment {
+  background-color: #3829e0;
+  color: white;
+  font-weight: 700;
+  box-shadow: 0 8px 6px 15px #f5f7ff;
+  transition: 0.3s ease;
+}
+
+.btn-container .payment:hover {
+  cursor: pointer;
+  background-color: #675bf1;
+}
+
+.btn-container .cancel {
+  background-color: transparent;
+  color: #7280a7;
+  font-weight: 900;
+  transition: 0.3s ease;
+}
+
+.btn-container .cancel:hover {
+  cursor: pointer;
+  color: #1f2f56;
+}
+
+/* footer */
+.attribution {
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.attribution a {
+  color: #3829e0;
+  font-weight: 700;
+}
